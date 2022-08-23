@@ -6,7 +6,7 @@
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
-    "publish-mfe": "lib-publish-mfe --fileName jw-project-home-app.js --fileAddress dist/jw-project-home-app.js --mfeName home",
+    "publish-mfe": "lib-publish-mfe --fileName jw-project-home-app.js --fileAddress dist/jw-project-home-app.js --mfeName home --exact",
     "lint": "eslint src --ext js,ts,tsx",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
