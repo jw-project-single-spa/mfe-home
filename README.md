@@ -1,1 +1,1 @@
-# mfe-home
+# home-app
