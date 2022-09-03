@@ -1,3 +1,4 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  console.log(props);
+  return <section>{props.name} is mounteds!s</section>;
 }

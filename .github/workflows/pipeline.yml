@@ -10,3 +10,4 @@ jobs:
     secrets:
       package_token: ${{ secrets.PACKAGE_TOKEN }}
       firebase_auth: ${{ secrets.FIREBASE_AUTH }}
+      firebase_token: ${{ secrets.FIREBASE_TOKEN }}
