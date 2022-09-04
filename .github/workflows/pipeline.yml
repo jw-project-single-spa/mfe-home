@@ -7,6 +7,8 @@ on:
 jobs:
   publish:
     uses: jw-project/workflows/.github/workflows/publish-mfe.yml@main
+    with:
+      firebase_project: ${{ secrets.FIREBASE_PROJECT_PROD }}
     secrets:
       package_token: ${{ secrets.PACKAGE_TOKEN }}
       firebase_auth: ${{ secrets.FIREBASE_AUTH }}
