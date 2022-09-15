@@ -1,12 +1,12 @@
 {
-  "name": "@jw-project/home-app",
+  "name": "@jw-project/mfe-home",
   "scripts": {
     "start": "webpack serve --port 8600",
     "start:standalone": "npm start -- --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
-    "publish-mfe": "lib-publish-mfe --fileName jw-project-home-app.js --mfeName home-app --exact",
+    "publish-mfe": "lib-publish-mfe --fileName jw-project-mfe-home.js --mfeName mfe-home --exact",
     "lint": "eslint src --ext js,ts,tsx",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
@@ -60,5 +60,5 @@
     "single-spa": "^5.9.3",
     "single-spa-react": "^4.3.1"
   },
-  "types": "dist/jw-project-home-app.d.ts"
+  "types": "dist/jw-project-mfe-home.d.ts"
 }
