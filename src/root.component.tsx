@@ -1,6 +1,7 @@
+import { ApplicationCustomProps } from "@jw-project/api";
 import { useEffect, useState } from "react";
 
-export default function Root(props) {
+export default function Root(props: ApplicationCustomProps) {
   const { themeObservable, titleObservable } = props;
   const [theme, setTheme] = useState("");
 
